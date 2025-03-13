@@ -35,7 +35,7 @@ const ProductCarousel = () => {
   // Adiciona uma escuta de mudança de tamanho de tela para ajustar o número de itens no carrossel
   useEffect(() => {
     const updateItemsPerPage = () => {
-      if (window.innerWidth >= 768) { // Tela maior que 768px (tablets, desktops)
+      if (window.innerWidth >= 900) { // Tela maior que 768px (tablets, desktops)
         setItemsPerPage(4);
       } else {
         setItemsPerPage(1); // Tela pequena (celulares)
@@ -99,7 +99,7 @@ const ProductCarousel = () => {
                 </Card>
               ))}
             </div>
-            <div className="text-center mt-5 mb-5">
+            <div className="text-center mt-5 mb-3">
               <Link to="/produtos">
                 <Button size="xs">Conheça nossos produtos</Button>
               </Link>

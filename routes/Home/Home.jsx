@@ -74,13 +74,13 @@ const Home = ({
         <ProductCarousel />
       </div>
       <div>
-        <Container fluid>
+        <Container>
           <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
             <Col
               xxl={5}
               xl={5}
               md={3}
-              className={`d-none d-md-block`}
+              className={`d-none d-lg-block`}
               style={{ height: "734px" }}
             >
               <img
@@ -91,11 +91,11 @@ const Home = ({
               />
             </Col>
             <Col>
-              <h1 className="mt-5 mb-3">
-                Mais de 200 mil clientes satisfeitos!
+              <h1 className="mt-3 mb-3">
+                Quem somos
               </h1>
               <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
-                Somos especialistas em produtos hospitalares, ortopédicos e
+                Somos especialistas em produtos de beleza, cosméticos e
                 cuidados pessoais.
               </h3>
               <ul className={`${styles.home}`}>
@@ -112,7 +112,7 @@ const Home = ({
                     </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>
-                        Materiais Descartáveis
+                        Sabonetes
                       </h4>
                       <p>Qualidade e confiança em cada produto.</p>
                     </div>
@@ -128,7 +128,7 @@ const Home = ({
                       </div>
                     </a>
                     <div className={styles.text_container}>
-                      <h4 className={styles.span_list}>Locações</h4>
+                      <h4 className={styles.span_list}>Shampoos e Condicionadores</h4>
                       <p>
                         Cadeiras de rodas e de banho, andadores, muletas, camas
                         hospitalares, CPAP e BiPAP.
@@ -146,7 +146,7 @@ const Home = ({
                       </div>
                     </a>
                     <div className={styles.text_container}>
-                      <h4 className={styles.span_list}>Produtos Ortopédicos</h4>
+                      <h4 className={styles.span_list}>Desodorantes</h4>
                       <p>Variedade para garantir conforto e suporte.</p>
                     </div>
                   </li>
@@ -164,7 +164,7 @@ const Home = ({
                       </div>
                     </a>
                     <div className={styles.text_container}>
-                      <h4 className={styles.span_list}>CPAP e BiPAP</h4>
+                      <h4 className={styles.span_list}>Perfumes</h4>
                       <p>Soluções eficazes para problemas respiratórios.</p>
                     </div>
                   </li>

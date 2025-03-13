@@ -20,6 +20,7 @@ h3 {
 h4 {
   font-weight: bold;
   font-style: italic;
+  color: #F6A925;
 }
 
 .home {
@@ -43,7 +44,7 @@ h4 {
 }
 
 .text_color_orange {
-  color: #EB6619;
+  color: #F6A925;
 }
 
 .img_home {
@@ -180,7 +181,7 @@ h1.title_map {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background-color: #00aa57;
+  background-color: #F6A925;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,6 +204,7 @@ h1.title_map {
 .span_list {
   font-size: 1.2rem;
   font-weight: bold;
+  color: #F6A925;
 }
 
 .description {
