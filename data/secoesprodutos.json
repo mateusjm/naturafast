@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sabonetes",
+    "name": "Sabonetes",
+    "image": "https://live.staticflickr.com/65535/54373685008_2ce8d51ce9_n.jpg"
+  },
+  {
+    "id": "shampoos",
+    "name": "Shampoos e Condicionadores",
+    "image": "https://live.staticflickr.com/65535/54378254970_f941e7da8d_n.jpg"
+  },
+  {
+    "id": "desodorantes",
+    "name": "Desodorantes",
+    "image": "https://live.staticflickr.com/65535/54377055647_748f9f906e_n.jpg"
+  },
+  {
+    "id": "perfumes",
+    "name": "Perfumes",
+    "image": "https://live.staticflickr.com/65535/54378986990_c6f029208c_n.jpg"
+  },
+  {
+    "id": "bodysplashs",
+    "name": "Body Splashs",
+    "image": "https://live.staticflickr.com/65535/54380346174_3a53bfba27_n.jpg"
+  },
+  {
+    "id": "protetoresolar",
+    "name": "Protetores Solar",
+    "image": "https://live.staticflickr.com/65535/54380385939_6c01d7bb72_n.jpg"
+  },
+  {
+    "id": "hidratantes",
+    "name": "Hidratantes",
+    "image": "https://live.staticflickr.com/65535/54379341157_c5efd49bfe_n.jpg"
+  }
+]

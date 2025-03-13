@@ -1,0 +1,26 @@
+.barra_lateral {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+  padding: 15px;
+}
+
+
+.barra_lateral a {
+  text-decoration: none;
+  color: black;
+}
+
+.barra_lateral a:hover {
+  text-decoration: underline;
+  color: black; 
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.textJustify p {
+  text-align: justify;
+}
