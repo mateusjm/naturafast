@@ -8,9 +8,7 @@ import styles from "./Home.module.css";
 // bootstrap
 import { Carousel } from "react-bootstrap";
 import { Container, Row, Col, Stack, Button } from "react-bootstrap";
-
-// Font Awesome for icons
-import { FaClock, FaTooth } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = ({
   banner1,
@@ -20,7 +18,6 @@ const Home = ({
   medalha,
   dinheiro,
   concorrencia,
-  medico,
   maps,
   favicon,
 }) => {
@@ -30,12 +27,12 @@ const Home = ({
         <title>Natura Fast Ponte Nova</title>
         <meta
           name="description"
-          content="Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais."
+          content="Encontre os melhores cosméticos da Natura com preços incríveis na Natura Fast. Maquiagens, perfumes e cuidados para sua beleza, com entrega rápida em Ponte Nova."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <div>
-        <Carousel indicators={false}>
+        <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100 image-carousel"
@@ -47,7 +44,7 @@ const Home = ({
             <img
               className="d-block w-100 image-carousel-produtos"
               src={banner2}
-              alt="Produtos hospitalares da Pró-Vida Cirúrgica em Ponte Nova MG"
+              alt="Produtos da Natura Fast Ponte Nova"
             />
           </Carousel.Item>
         </Carousel>
@@ -56,18 +53,22 @@ const Home = ({
         <Container fluid>
           <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
             <Col>
-              <p style={{ color: "#F6A925" }} className="text-center mt-5">
+              <h5 style={{ color: "#F6A925" }} className="text-center mt-5">
                 Nossos Produtos
-              </p>
+              </h5>
               <h1 className="mb-3">
                 Procurando{" "}
                 <span style={{ color: "#F6A925" }}>Produtos Natura </span>em
                 Ponte Nova Mg?
               </h1>
-              <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
+              <h4
+                sm={12}
+                xs={12}
+                className="text-center text-black fst-italic mb-5"
+              >
                 Entregamos cosméticos, perfumes e maquiagens da Natura para toda
                 região de Ponte Nova.
-              </h3>
+              </h4>
             </Col>
           </Row>
         </Container>
@@ -75,13 +76,28 @@ const Home = ({
       </div>
       <div>
         <Container>
-          <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
+          <Row className="mb-xs-5 mb-xl-0 mt-xl-5 d-flex justify-content-center align-items-end">
+            <h5 style={{ color: "#F6A925" }} className="text-center mt-3 mb-3">
+              Quem somos
+            </h5>
+            <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
+              Somos especialistas em produtos de beleza, cosméticos e cuidados
+              pessoais.
+            </h3>
+            <p className="text-center mb-5">
+              Na Natura Fast, acreditamos que beleza vai além da aparência: é
+              sobre autocuidado, bem-estar e confiança. Somos uma loja
+              especializada em cosméticos, maquiagens, perfumes femininos e
+              produtos de cuidados com a pele e cabelo da Natura, oferecendo às
+              mulheres de Ponte Nova e região uma experiência única, com
+              atendimento próximo e personalizado.
+            </p>
             <Col
               xxl={5}
               xl={5}
               md={3}
-              className={`d-none d-lg-block`}
-              style={{ height: "734px" }}
+              className={`d-none d-lg-block mt-3`}
+              style={{ height: "600px" }}
             >
               <img
                 src={people}
@@ -90,142 +106,90 @@ const Home = ({
                 style={{ objectFit: "cover" }}
               />
             </Col>
-            <Col>
-              <h1 className="mt-3 mb-3">
-                Quem somos
-              </h1>
-              <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
-                Somos especialistas em produtos de beleza, cosméticos e
-                cuidados pessoais.
-              </h3>
+            <Col className="mb-5">
               <ul className={`${styles.home}`}>
                 <Stack gap={4}>
                   <li className={styles.list_item}>
-                    <a href="/produtos/descartaveis">
+                    <a href="/produtos/sabonetes">
                       <div className={styles.circulo}>
                         <img
-                          src={`https://cdn-icons-png.flaticon.com/128/407/407543.png`}
-                          alt="Ícone de materiais descartáveis"
+                          src={`https://cdn-icons-png.flaticon.com/128/1398/1398857.png`}
+                          alt="Ícone de Sabonetes Natura"
                           className={styles.image}
                         />
                       </div>
                     </a>
                     <div className={styles.text_container}>
-                      <h4 className={styles.span_list}>
-                        Sabonetes
-                      </h4>
-                      <p>Qualidade e confiança em cada produto.</p>
+                      <h4 className={styles.span_list}>Sabonetes</h4>
+                      <p>
+                        Cuide da sua pele com suavidade e pureza em cada banho.
+                      </p>
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a href="/locacoes">
+                    <a href="/produtos/shampoos">
                       <div className={styles.circulo}>
                         <img
-                          src={`https://cdn-icons-png.flaticon.com/128/2563/2563778.png`}
-                          alt="Ícone de locações"
+                          src={`https://cdn-icons-png.flaticon.com/128/6722/6722750.png`}
+                          alt="Ícone de Shampoos e Condicionadores Natura"
                           className={`${styles.image}`}
                         />
                       </div>
                     </a>
                     <div className={styles.text_container}>
-                      <h4 className={styles.span_list}>Shampoos e Condicionadores</h4>
+                      <h4 className={styles.span_list}>
+                        Shampoos e Condicionadores
+                      </h4>
                       <p>
-                        Cadeiras de rodas e de banho, andadores, muletas, camas
-                        hospitalares, CPAP e BiPAP.
+                        Nutrição e hidratação para cabelos sempre radiantes.
                       </p>
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a href="/produtos/ortopedicos">
+                    <a href="/produtos/desodorantes">
                       <div className={styles.circulo}>
                         <img
-                          src={`https://cdn-icons-png.flaticon.com/128/8123/8123362.png`}
-                          alt="Ícone de produtos ortopédicos"
+                          src={`https://cdn-icons-png.flaticon.com/128/1686/1686055.png`}
+                          alt="Ícone de Desodorantes Natura"
                           className={styles.image}
                         />
                       </div>
                     </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>Desodorantes</h4>
-                      <p>Variedade para garantir conforto e suporte.</p>
+                      <p>Proteção duradoura para o seu bem-estar e conforto.</p>
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a
-                      target="_blank"
-                      href="https://cpap.providacirurgica.com.br"
-                    >
+                    <a href="/produtos/perfumes">
                       <div className={styles.circulo}>
                         <img
-                          src={`https://cdn-icons-png.flaticon.com/128/11228/11228368.png`}
-                          alt="Ícone de CPAP e BiPAP"
+                          src={`https://cdn-icons-png.flaticon.com/128/2047/2047370.png`}
+                          alt="Ícone de Perfumes Natura"
                           className={styles.image}
                         />
                       </div>
                     </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>Perfumes</h4>
-                      <p>Soluções eficazes para problemas respiratórios.</p>
+                      <p>Fragrâncias marcantes para realçar sua essência..</p>
                     </div>
                   </li>
                 </Stack>
               </ul>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="bg-dark pt-5 pb-5">
-        <Container className="mt-0 mt-xl-5 mb-0 mb-xl-5">
-          <Row>
-            <Col xs={12}>
-              <h1 className="text-light mt-5">
-                Por que Escolher a Pró-Vida Cirúrgica Ponte Nova MG?
-              </h1>
-              <h3 className={`text-success mb-5 ${styles.subtitle_home}`}>
-                Benefícios que fazem a diferença na sua escolha:
-              </h3>
-            </Col>
-          </Row>
-          <Row className={`d-flex justify-content-center align-items-center`}>
-            <Col xxl={6} xl={7} xs={12}>
-              <ul className={`text-light ${styles.checkmark_list}`}>
-                <li className="mb-3">
-                  Somos a Maior e Melhor Loja de Produtos Ortopédicos e
-                  Hospitalares de Ponte Nova-Mg e região!
-                </li>
-                <li className="mb-3">
-                  Entregamos e montamos Camas Hospitalares em Ponte Nova-MG
-                </li>
-                <li className="mb-3">
-                  Realizamos locações de produtos hospitalares em Ponte Nova-MG
-                </li>
-                <li className="mb-3">
-                  Estamos presentes nas principais Redes-Sociais
-                </li>
-                <li className="mb-3">Temos Atendimento On-line</li>
-                <li className="mb-3">Funcionamento de Segunda à Sábado</li>
-                <li className="mb-3">
-                  Temos Estacionamento Próprio para Clientes
-                </li>
-              </ul>
-              <div className={`m-2 p-3`}>
-                <Button className={` ${styles.button_link}`} variant="success">
-                  <a
-                    className={styles.a}
-                    href="https://wa.me/message/K7V37SCXJ72KG1"
-                    target="blank"
+              <div className="text-center mt-5">
+                <Link to="/produtos">
+                  <Button
+                    className={styles.button_link}
+                    style={{
+                      backgroundColor: "#F6A925",
+                      border: "transparent",
+                    }}
                   >
-                    Entrar em contato
-                  </a>
-                </Button>
+                    Conheça nossos produtos
+                  </Button>
+                </Link>
               </div>
-            </Col>
-            <Col className={`p-4 mb-4 text-center`} xxl={6} xl={5} xs={12}>
-              <img
-                className={`img-fluid ${styles.custom_img_medico}`}
-                src={medico}
-                alt="Profissional de Saúde"
-              />
             </Col>
           </Row>
         </Container>

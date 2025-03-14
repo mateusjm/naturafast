@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Carousel, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./ProductCarousel.css"; // Adicione um arquivo CSS para estilização
+import "./ProductCarousel.css";
+import styles from "../routes/Home/Home.module.css";
 
 // Importando dados
 import sabonetes from "../data/sabonetes.json";
@@ -30,43 +31,35 @@ const chunkArray = (array, size) => {
 };
 
 const ProductCarousel = () => {
-  const [itemsPerPage, setItemsPerPage] = useState(1); // Default to 1 item for small screens
+  const [itemsPerPage, setItemsPerPage] = useState(1);
 
-  // Adiciona uma escuta de mudança de tamanho de tela para ajustar o número de itens no carrossel
   useEffect(() => {
     const updateItemsPerPage = () => {
-      if (window.innerWidth >= 900) { // Tela maior que 768px (tablets, desktops)
-        setItemsPerPage(4);
+      if (window.innerWidth >= 1600) {
+        setItemsPerPage(4); // Telas grandes
+      } else if (window.innerWidth >= 1250) {
+        setItemsPerPage(3); // Telas médias
+      } else if (window.innerWidth >= 850) {
+        setItemsPerPage(2); // Telas um pouco menores
       } else {
-        setItemsPerPage(1); // Tela pequena (celulares)
+        setItemsPerPage(1); // Telas pequenas
       }
     };
 
-    updateItemsPerPage(); // Define o valor inicial
-    window.addEventListener("resize", updateItemsPerPage); // Atualiza ao redimensionar a janela
-
-    return () => window.removeEventListener("resize", updateItemsPerPage); // Limpeza
+    updateItemsPerPage();
+    window.addEventListener("resize", updateItemsPerPage);
+    return () => window.removeEventListener("resize", updateItemsPerPage);
   }, []);
 
-  const groupedProducts = chunkArray(allProducts, itemsPerPage); // Divide os produtos com base na quantidade definida
+  const groupedProducts = chunkArray(allProducts, itemsPerPage);
 
   return (
     <div className="carousel-wrapper">
       <Carousel
-        className="custom-carousel"
+        className="custom-carousel custom-arrow"
         interval={null}
         controls
         indicators={false}
-        nextIcon={
-          <span className="custom-arrow right" style={{ right: "100%" }}>
-            ❯
-          </span>
-        }
-        prevIcon={
-          <span className="custom-arrow left" style={{ left: "100%" }}>
-            ❮
-          </span>
-        }
       >
         {groupedProducts.map((group, index) => (
           <Carousel.Item key={index}>
@@ -80,7 +73,7 @@ const ProductCarousel = () => {
                       alt={product.name}
                     />
                   </Link>
-                  <Card.Body className="mb-5">
+                  <Card.Body>
                     <Card.Title>{product.name}</Card.Title>
                   </Card.Body>
                   <Link
@@ -99,9 +92,13 @@ const ProductCarousel = () => {
                 </Card>
               ))}
             </div>
-            <div className="text-center mt-5 mb-3">
+            <div className="text-center mt-5 mb-5">
               <Link to="/produtos">
-                <Button size="xs">Conheça nossos produtos</Button>
+                <Button
+                  style={{ backgroundColor: "#F6A925", border: "transparent" }}
+                >
+                  Conheça nossos produtos
+                </Button>
               </Link>
             </div>
           </Carousel.Item>

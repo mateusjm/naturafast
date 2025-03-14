@@ -39,7 +39,7 @@ const SearchResults = () => {
   return (
     <div className="container py-4">
       <h2 className="mt-5 mb-5 text-center">
-        Resultados para: "<span style={{ color: "#EB6619" }}>{query}</span>"
+        Resultados para: "<span style={{ color: "#F6A925" }}>{query}</span>"
       </h2>
 
       {hasResults ? (
@@ -96,9 +96,7 @@ const SearchResults = () => {
               </p>
               <Button
                 href="/busca"
-                variant="success"
-                size="md"
-                className="mt-3"
+                style={{ backgroundColor: "#F6A925", border: "transparent" }}
               >
                 Voltar para a Página de Busca
               </Button>

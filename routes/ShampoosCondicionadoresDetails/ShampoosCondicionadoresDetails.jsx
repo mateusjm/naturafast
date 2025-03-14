@@ -53,7 +53,7 @@ const SapatosSoftWorksDetails = ({ favicon }) => {
             <Col className="text-end">
               <Button
                 className={styles.button_link}
-                style={{ backgroundColor: "#EB6619", border: "transparent" }}
+                style={{ backgroundColor: "#F6A925", border: "transparent" }}
               >
                 <a
                   className=""

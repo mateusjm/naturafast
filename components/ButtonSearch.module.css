@@ -1,9 +1,9 @@
 .btn_outline_custom {
-  color: #EB6619;
-  border-color: #EB6619;
+  color: #F6A925;
+  border-color: #F6A925;
 }
 
 .btn_outline_custom:hover {
-  background-color: #EB6619;
+  background-color: #F6A925;
   color: #fff; 
 }

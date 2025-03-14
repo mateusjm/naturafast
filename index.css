@@ -7,8 +7,9 @@ li {
 }
 
 /* NAVBAR */
-.nav-link:focus, .nav-link:hover {
-  color: var(--bs-light)
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--bs-light);
 }
 
 .navbar-nav {
@@ -39,11 +40,11 @@ li {
 
 /* CAROUSEL */
 
-.carousel-control-next, .carousel-control-prev {
-  width: 5%;
+.carousel-control-next,
+.carousel-control-prev {
+  width: 15%;
   opacity: 1;
 }
-
 
 /* CAROUSEL SMARTPHONES */
 
@@ -64,14 +65,6 @@ li {
     height: 430px;
     object-fit: cover;
     object-position: center center;
-  }
-
-  .carousel-control-prev-icon {
-    background-image: none;
-  }
-
-  .carousel-control-next-icon {
-    background-image: none;
   }
 }
 
@@ -102,4 +95,18 @@ li {
 .text_container h4,
 .text_container p {
   margin: 0; /* Remove margens padrão */
+}
+
+/* Ajuste da seta (sem fundo arredondado) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  position: relative; /* Permite que os elementos filhos se posicionem em relação a ele */
+  width: 30px; /* Tamanho da seta */
+  height: 30px; /* Tamanho da seta */
+  display: flex; /* Centraliza o conteúdo */
+  justify-content: center; /* Centraliza o ícone horizontalmente */
+  align-items: center; /* Centraliza o ícone verticalmente */
+  background-color: transparent; /* Remove qualquer fundo */
+  color: #F6A925; /* Cor da seta */
+  font-size: 18px; /* Ajuste o tamanho da seta */
 }

@@ -18,11 +18,11 @@ function ErrorPage({ favicon }) {
       >
         <Row>
           <Col>
-            <h1 className="display-1 fw-bold text-success">404</h1>
-            <p className="fs-4 text-secondary">
+            <h1 style={{color: '#F6A925'}} className="display-1 fw-bold">404</h1>
+            <p className="fs-4">
               Ops! A página que você está procurando não foi encontrada.
             </p>
-            <Button href="/" variant="success" size="md" className="mt-3">
+            <Button href="/" size="md" className="mt-3">
               Voltar para a Página Inicial
             </Button>
           </Col>

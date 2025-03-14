@@ -39,7 +39,7 @@ function ButtonSearch({ searchPath, placeholder = "Pesquisar..." }) {
               style={{
                 outline: "none",
                 boxShadow: "none",
-                borderColor: "#EB6619",
+                borderColor: "#F6A925",
               }}
             />
             <Button
@@ -50,7 +50,7 @@ function ButtonSearch({ searchPath, placeholder = "Pesquisar..." }) {
               Buscar
             </Button>
 
-            <Button href="/busca" style={{ width: 200, backgroundColor: '#EB6619', border: 'transparent' }} type="submit">
+            <Button href="/busca" style={{ width: 200, backgroundColor: '#F6A925', border: 'transparent' }} type="submit">
               Mostrar todos
             </Button>
           </Form>

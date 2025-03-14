@@ -28,12 +28,10 @@ import {
 
 //components
 import SearchResults from "./components/SearchResults.jsx";
-import SearchBlog from './components/SearchBlog.jsx'
 
 // routes
 import Home from "./routes/Home/Home.jsx";
 import Products from "./routes/Products/Products.jsx";
-import Blog from "./routes/Blog/Blog.jsx";
 import Contact from "./routes/Contact/Contact.jsx";
 import ErrorPage from "./routes/ErrorPage/ErrorPage.jsx";
 
@@ -51,7 +49,6 @@ import ProtetoresSolar from "./routes/ProtetoresSolar/ProtetoresSolar.jsx";
 import ProtetoresSolarDetails from "./routes/ProtetoresSolarDetails/ProtetoresSolarDetails.jsx";
 import Hidratantes from "./routes/Hidratantes/Hidratantes.jsx";
 import HidratantesDetails from "./routes/HidratantesDetails/HidratantesDetails.jsx";
-import BlogDetails from './routes/BlogDetails/BlogDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -85,14 +82,6 @@ const router = createBrowserRouter([
         element: <SearchResults favicon={favicon} />,
       },
       {
-        path: "/busca-blog",
-        element: <SearchBlog favicon={favicon} />,
-      },
-      {
-        path: "/blog",
-        element: <Blog banner1={banner1} favicon={favicon} />,
-      },
-      {
         path: "/contato",
         element: <Contact favicon={favicon} />,
       },
@@ -123,10 +112,6 @@ const router = createBrowserRouter([
       {
         path: "/produtos/hidratantes",
         element: <Hidratantes banner2={banner2} favicon={favicon} />,
-      },
-      {
-        path: "/blog/:id",
-        element: <BlogDetails favicon={favicon} />,
       },
       {
         path: "/produtos/sabonetes/:id",

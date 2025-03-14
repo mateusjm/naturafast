@@ -27,7 +27,7 @@ const Header = ({ logo }) => {
         <Navbar.Brand>
           <LinkContainer to="/">
             <a onClick={() => setExpanded(false)}>
-              <img width={110} src={logo} alt="Logo Pró-Vida Cirúrgica" />
+              <img width={100} src={logo} alt="Logo Pró-Vida Cirúrgica" />
             </a>
           </LinkContainer>
         </Navbar.Brand>
@@ -45,9 +45,6 @@ const Header = ({ logo }) => {
               <Nav.Link active={location.pathname === "/produtos"}>
                 Produtos
               </Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/blog" onClick={() => setExpanded(false)}>
-              <Nav.Link active={location.pathname === "/blog"}>Blog</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contato" onClick={() => setExpanded(false)}>
               <Nav.Link active={location.pathname === "/contato"}>

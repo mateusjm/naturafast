@@ -14,13 +14,13 @@ h1 {
 }
 
 h3 {
+  font-size: 1.8em;
   text-align: center;
 }
 
 h4 {
-  font-weight: bold;
   font-style: italic;
-  color: #F6A925;
+  color: white;
 }
 
 .home {
@@ -54,29 +54,17 @@ h4 {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
 }
 
-.button_link {
-  padding: 13px;
-  border-radius: 25px;
-}
-
-.button_link a {
-  text-decoration: none;
-  color: var(--bg-success);
-}
-
-.button_link:hover a {
-  color: #fff;
-}
-
 .cards {
   background-color: white;
   border-radius: 10px; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
   transition: box-shadow 0.3s ease; 
+  transition: transform 0.3s ease-in-out;
 }
 
 .cards:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05);
 }
 
 ul.checkmark_list {
@@ -212,7 +200,16 @@ h1.title_map {
   color: #555;
 }
 
-.avaliacoes {
+.button_link {
+  padding: 13px;
+  border-radius: 25px;
+}
+
+.button_link a {
   text-decoration: none;
-  color: #555;
+  color: var(--bg-success);
+}
+
+.button_link:hover a {
+  color: #fff;
 }

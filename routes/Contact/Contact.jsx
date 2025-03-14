@@ -59,7 +59,7 @@ const Contact = ({favicon}) => {
       <Container className="mt-5 mb-5 p-4">
         <h1 className="mb-3 text-center">
           Entre em Contato {" "}
-          <span style={{color: '#EB6619'}}>Natura Fast em Ponte Nova MG</span>
+          <span style={{color: '#F6A925'}}>Natura Fast em Ponte Nova MG</span>
         </h1>
         <p className="mb-5 text-center">
           A Natura Fast Ponte Nova fica localizada na cidade de Ponte Nova MG e
@@ -96,7 +96,7 @@ const Contact = ({favicon}) => {
                 onChange={handleChange}
                 required
               />
-              <Button className={styles.button_contact} type="submit" style={{backgroundColor: '#EB6619'}} block>
+              <Button className={styles.button_contact} type="submit" style={{backgroundColor: '#F6A925'}} block>
                 Enviar
               </Button>
             </Form>

@@ -15,7 +15,7 @@ const Products = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Produtos Cosméticos em Ponte Nova</title>
+        <title>Cosméticos em Ponte Nova</title>
         <meta
           name="description"
           content="Loja de produtos de beleza e cosméticos Natura em Ponte Nova."

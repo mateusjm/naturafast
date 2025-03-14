@@ -32,12 +32,6 @@ const Footer = ({ logo, home, maps, telefone, email, facebook, instagram, whatsa
             <LinkContainer to="/produtos">
               <Link className={styles.footerLink}>Produtos</Link>
             </LinkContainer>
-            <LinkContainer to="/servicos">
-              <Link className={styles.footerLink}>Serviços</Link>
-            </LinkContainer>
-            <LinkContainer to="/blog">
-              <Link className={styles.footerLink}>Blog</Link>
-            </LinkContainer>
             <LinkContainer to="/contato">
               <Link className={styles.footerLink}>Contato</Link>
             </LinkContainer>
@@ -48,7 +42,7 @@ const Footer = ({ logo, home, maps, telefone, email, facebook, instagram, whatsa
           <Stack>
             <Link
               className={styles.footerLink}
-              to="https://www.instagram.com/provida.cirurgica"
+              to="https://www.instagram.com/consultornaturafastpn"
               target="blank"
             >
               <img className="p-1" width={25} src={instagram} alt="Instagram" />
@@ -60,7 +54,7 @@ const Footer = ({ logo, home, maps, telefone, email, facebook, instagram, whatsa
             </Link>
             <Link
               className={styles.footerLink}
-              to="https://wa.me/message/K7V37SCXJ72KG1"
+              to="https://wa.me/message/2NRV4OC3FNOXD1"
               target="blank"
             >
               <img className="p-1" width={25} src={whatsapp} alt="WhatsApp" />
@@ -92,7 +86,7 @@ const Footer = ({ logo, home, maps, telefone, email, facebook, instagram, whatsa
               to="mailto:contato@providacirurgica.com.br"
             >
               <img className="p-1" width={25} src={email} alt="E-mail" />
-              contato@consultornaturafast.com.br
+              naturafast2@gmail.com
             </Link>
           </Stack>
         </Col>

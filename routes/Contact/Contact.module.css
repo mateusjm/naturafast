@@ -35,12 +35,12 @@ h2 {
 .form_contact input:focus, 
 .form_contact textarea:focus {
   outline: none;
-  border-color:  #198754;
+  border-color:  #F6A925;
   box-shadow: none;
 }
 
 .button_contact {
-  background-color:  #198754;
+  background-color:  #F6A925;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -51,11 +51,11 @@ h2 {
 }
 
 .button_contact:hover {
-  background-color:  #198754;
+  background-color:  #F6A925
 }
 
 p.success {
-  color:  #198754;
+  color:  #F6A925;
 }
 
 p.error {
