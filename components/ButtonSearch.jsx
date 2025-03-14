@@ -32,7 +32,7 @@ function ButtonSearch({ searchPath, placeholder = "Pesquisar..." }) {
             <FormControl
               type="text"
               placeholder={placeholder}
-              className="me-2"
+              className=""
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               aria-label="Pesquisar"
@@ -50,7 +50,7 @@ function ButtonSearch({ searchPath, placeholder = "Pesquisar..." }) {
             >
               Buscar
             </Button>
-            <Button href="/busca" style={{ width: '15%', backgroundColor: '#F6A925', border: 'transparent' }} type="submit">
+            <Button href="/busca" style={{ width: '25%', backgroundColor: '#F6A925', border: 'transparent' }} type="submit">
               Todos
             </Button>
           </Form>

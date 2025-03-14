@@ -144,6 +144,14 @@ const router = createBrowserRouter([
   },
 ]);
 
+// Ativando as flags futuras
+router.options = {
+  future: {
+    v7_startTransition: true,
+    v7_relativeSplatPath: true,
+  },
+};
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
