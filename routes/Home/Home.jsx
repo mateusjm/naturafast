@@ -61,14 +61,14 @@ const Home = ({
                 <span style={{ color: "#F6A925" }}>Produtos Natura </span>em
                 Ponte Nova Mg?
               </h1>
-              <h3
+              <h4
                 sm={12}
                 xs={12}
                 className="text-center text-black fst-italic mb-5"
               >
                 Entregamos cosméticos, perfumes e maquiagens da Natura para toda
                 região de Ponte Nova.
-              </h3>
+              </h4>
             </Col>
           </Row>
         </Container>
@@ -80,10 +80,10 @@ const Home = ({
             <h5 style={{ color: "#F6A925" }} className="text-center mt-3 mb-3">
               Quem somos
             </h5>
-            <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
+            <h4 sm={12} xs={12} className="text-center fst-italic mb-5">
               Somos especialistas em produtos de beleza, cosméticos e cuidados
               pessoais.
-            </h3>
+            </h4>
             <p className="text-center mb-5">
               Na Natura Fast, acreditamos que beleza vai além da aparência: é
               sobre autocuidado, bem-estar e confiança. Somos uma loja
