@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,7 +15,7 @@ const Perfumes = ({ banner2, favicon }) => {
         <title>Perfumes em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos curativos cirúrgicos em Ponte Nova MG especializados para o tratamento de feridas, incluindo Petrolatum e Lomatuel Pro. Soluções cirúrgicas para proteção, cicatrização e lavagem adequada, garantindo o melhor cuidado para a recuperação da pele"
+          content="Descubra os perfumes Natura, com fragrâncias marcantes e elegantes que encantam. Escolha o seu favorito na Natura Fast, em Ponte Nova, e viva momentos inesquecíveis."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -32,7 +31,7 @@ const Perfumes = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

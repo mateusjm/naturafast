@@ -61,14 +61,14 @@ const Home = ({
                 <span style={{ color: "#F6A925" }}>Produtos Natura </span>em
                 Ponte Nova Mg?
               </h1>
-              <h4
+              <h3
                 sm={12}
                 xs={12}
                 className="text-center text-black fst-italic mb-5"
               >
                 Entregamos cosméticos, perfumes e maquiagens da Natura para toda
                 região de Ponte Nova.
-              </h4>
+              </h3>
             </Col>
           </Row>
         </Container>

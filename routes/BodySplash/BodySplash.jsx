@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,7 +15,7 @@ const BodySplash = ({ banner2, favicon }) => {
         <title>Body Splash em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos materiais ortopédicos como tipoia, imobilizador de joelho, joelheira e palmilha ortopédica em Ponte Nova Mg. Produtos essenciais para o alívio de dores, prevenção e recuperação de lesões musculoesqueléticas com conforto e qualidade"
+          content="Conheça os Body Splashs Natura, fragrâncias refrescantes e delicadas para todos os momentos. Encontre os seus favoritos na Natura Fast em Ponte Nova."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -32,7 +31,7 @@ const BodySplash = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

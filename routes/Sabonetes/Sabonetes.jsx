@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,7 +15,7 @@ const Sabonetes = ({ banner2, favicon }) => {
         <title>Sabonetes Natura Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos meias de compressão em Ponte Nova Mg ideais para o tratamento de varizes e prevenção de trombose, com modelos antiembolia. Contamos com opções com efeito climático, que não esquentam no calor, garantindo frescor e bem-estar durante o uso."
+          content="Experimente os sabonetes Natura, que oferecem limpeza suave e fragrâncias delicadas para sua pele. Encontre opções irresistíveis na Natura Fast, em Ponte Nova, e transforme seu banho em um momento de cuidado."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -32,7 +31,7 @@ const Sabonetes = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

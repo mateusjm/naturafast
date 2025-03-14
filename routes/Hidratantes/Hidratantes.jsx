@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,7 +15,7 @@ const Hidratantes = ({ banner2, favicon }) => {
         <title>Hidratantes em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos materiais descartáveis em Ponte Nova MG como máscara, sachê de gel, espéculo e preservativo não lubrificado, ideais para atender às necessidades de consumos de clínicas e cuidados pessoais, com qualidade e praticidade."
+          content="Descubra os hidratantes Natura que proporcionam pele macia e hidratada o dia todo. Compre online e retire na Natura Fast, em Ponte Nova"
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -32,7 +31,7 @@ const Hidratantes = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

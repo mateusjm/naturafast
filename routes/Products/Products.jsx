@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -18,7 +17,7 @@ const Products = ({ banner2, favicon }) => {
         <title>Cosméticos em Ponte Nova</title>
         <meta
           name="description"
-          content="Loja de produtos de beleza e cosméticos Natura em Ponte Nova."
+          content="Explore os produtos Natura, pensados para realçar sua beleza e bem-estar. Encontre itens exclusivos e de qualidade na Natura Fast, em Ponte Nova, e sinta-se ainda mais confiante."
         />
          <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -34,7 +33,7 @@ const Products = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Produtos hospitalares da Pró-Vida Cirúrgica em Ponte Nova Mg"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

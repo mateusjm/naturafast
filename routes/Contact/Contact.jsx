@@ -52,7 +52,7 @@ const Contact = ({favicon}) => {
         <title>Contato</title>
         <meta
           name="description"
-          content="Entre em contato conosco para saber mais sobre os produtos e serviços da Pró-Vida Cirúrgica."
+          content="Tem alguma dúvida ou precisa de assistência? Fale com a Natura Fast em Ponte Nova. Estamos prontos para ajudar você a encontrar o que precisa, seja online ou pessoalmente em nossa loja."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,7 +15,7 @@ const Desodorantes = ({ banner2, favicon }) => {
         <title>Desodorantes em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos dieta enteral em Ponte Nova Mg e acessórios essenciais para nutrição clínica, como frasco de dieta, equipo de dieta e seringas. Soluções completas para a alimentação nutricional de pacientes que necessitam de suporte especializado."
+          content="Encontre os melhores desodorantes Natura para proteção e fragrância duradoura. Compre online e retire na Natura Fast, em Ponte Nova."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -32,7 +31,7 @@ const Desodorantes = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

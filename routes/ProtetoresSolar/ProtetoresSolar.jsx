@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,7 +15,7 @@ const ProtetoresSolar = ({ banner2, favicon }) => {
         <title>Protetores Solar em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos colchão e travesseiro especializados na prevenção de escaras. Encontre colchão pneumático em Ponte Nova MG e caixa de ovo, ideais para proporcionar conforto, alívio da pressão e cuidados essenciais para pacientes acamados."
+          content="Proteja sua pele com os protetores solares Natura, desenvolvidos para garantir a máxima proteção e hidratação. Encontre a opção ideal na Natura Fast, em Ponte Nova, e aproveite o sol com segurança."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -32,7 +31,7 @@ const ProtetoresSolar = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Natura Fast Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>

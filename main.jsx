@@ -22,7 +22,6 @@ import favicon from "./assets/logo.png";
 // configurando o router
 import {
   createBrowserRouter,
-  Navigate,
   RouterProvider,
 } from "react-router-dom";
 

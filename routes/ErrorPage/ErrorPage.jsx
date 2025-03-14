@@ -5,10 +5,10 @@ function ErrorPage({ favicon }) {
   return (
     <>
       <Helmet>
-        <title>Pró-Vida Cirúrgica</title>
+        <title>Natura Fast Ponte Nova</title>
         <meta
           name="description"
-          content="Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais."
+          content="Oops! Parece que a página que você procurou não está disponível. Mas não se preocupe, explore outras opções na Natura Fast ou entre em contato conosco para assistência."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

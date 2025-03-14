@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 // bootstrap
@@ -16,9 +15,7 @@ const ShampoosCondicionadores = ({ banner2, favicon }) => {
         <title>Shampoos e Condicionadores em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos sapatos hospitalares em Ponte Nova impermeáveis, ideais para o ambiente de trabalho em hospitais. Confortáveis, leves e macios, esses calçados foram desenvolvidos para garantir conforto
-          durante toda a rotina, proporcionando segurança e praticidade no dia
-          a dia."
+          content="Cuide dos seus fios com os shampoos e condicionadores Natura, que garantem brilho, maciez e saúde para seus cabelos. Encontre os produtos ideais na Natura Fast, em Ponte Nova, e conquiste cabelos radiantes."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -34,7 +31,7 @@ const ShampoosCondicionadores = ({ banner2, favicon }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Produtos"
+            alt="Produtos da Natura Fast Ponte Nova"
           />
         </Container>
       </div>
