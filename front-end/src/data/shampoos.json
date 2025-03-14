@@ -1,0 +1,115 @@
+[
+  {
+    "id": "refil-shampoo-estimulante-antiqueda",
+    "name": "Refil Shampoo Estimulante Antiqueda e Crescimento",
+    "tipo": "shampoos",
+    "description": "O Refil Shampoo Estimulante Antiqueda e Crescimento Lumina é ideal para fortalecer os fios e estimular o crescimento saudável dos cabelos. formulado com ingredientes que combatem a queda, ele age diretamente na fibra capilar, deixando os cabelos mais resistentes, encorpados e com vitalidade. prático e sustentável, este refil é uma escolha consciente para repor seu shampoo favorito.",
+    "image": "https://live.staticflickr.com/65535/54378254970_f941e7da8d_n.jpg"
+  },
+  {
+    "id": "shampoo-estimulante-antiqueda",
+    "name": "Shampoo Estimulante Antiqueda e Crescimento",
+    "tipo": "shampoos",
+    "description": "O Shampoo Estimulante Antiqueda e Crescimento Lumina é formulado para combater a queda de cabelo e estimular o crescimento saudável dos fios. com tecnologia avançada e ingredientes naturais, ele limpa suavemente o couro cabeludo enquanto fortalece os fios, deixando o cabelo mais resistente e saudável.",
+    "image": "https://live.staticflickr.com/65535/54378254980_c0252f3006_n.jpg"
+  },
+  {
+    "id": "refil-shampoo-nutritivo",
+    "name": "Refil Shampoo Nutritivo Tododia Pêssego e Amêndoa",
+    "tipo": "shampoos",
+    "description": "Calçado ocupacional de uso profissional tipo sapato, fechado na parte do calcanhar e na parte superior, confeccionado em EVA, solado de borracha antiderrapante, resistente ao escorregamento em piso cerâmico com solução de detergente e piso de aço com solução de glicerol, resistente ao isolamento ao frio, à absorção de energia na região do salto e ao óleo combustível, com palmilha interna removível.",
+
+    "image": "https://live.staticflickr.com/65535/54378094913_ef643ec121_n.jpg"
+  },
+  {
+    "id": "refil-condicionador-mamae-bebe",
+    "name": "Refil Condicionador Suave Mamãe e Bebê",
+    "tipo": "shampoos",
+    "description": "Natura Mamãe e Bebê Refil Condicionador Suave é a escolha perfeita para cuidar dos cabelos delicados do seu bebê com todo o carinho e cuidado que ele merece. formulado com ingredientes suaves e naturais, ele limpa e hidrata os cabelos do bebê, deixando-os macios, brilhantes e fáceis de pentear. todos os produtos para o bebê são hipoalergênicos. estes produtos foram formulados de maneira a minimizar possível surgimento de alergia.",
+    "image": "https://live.staticflickr.com/65535/54378255010_99cf37e4d7_n.jpg"
+  },
+  {
+    "id": "shampoo-mamae-bebe",
+    "name": "Shampoo Mamãe Bebê",
+    "tipo": "shampoos",
+    "description": "Com uma fórmula suave e delicada, o shampoo Natura Mamãe e Bebê foi pensado para a segurança dos seus filhos desde os primeiros dias de vida. Todos os produtos para o bebê são hipoalergênicos. Estes produtos foram formulados de maneira minimizar possível surgimento de alergia.",
+    "image": "https://live.staticflickr.com/65535/54376985832_78b32ee0cf_n.jpg"
+  },
+  {
+    "id": "refil-sampoo-antioleosidade",
+    "name": "Refil Shampoo Equilibrante Antioleosidade",
+    "tipo": "shampoos",
+    "description": "A linha para Tratamento Antioleosidade de Lumina mudou! São novas embalagens e ainda mais tecnologia para cuidar do seu cabelo. Com BioProteína Tripla Ação e Ativo Dermoregulador, esse sistema promove controle da oleosidade sem efeito rebote*. O Shampoo Equilibrante Antioleosidade Lumina é um passo essencial nesse ritual, com fórmula que limpa e equilibra o couro cabeludo.",
+    "image": "https://live.staticflickr.com/65535/54378094938_0182a56709_n.jpg"
+  },
+  {
+    "id": "shampoo-nutritivo-tododia",
+    "name": "Shampoo Nutritivo Tododia Pêssego e Amêndoa 300 ml",
+    "tipo": "shampoos",
+    "description": "O Shampoo Nutritivo Tododia Pêssego e Amêndoa limpa os cabelos sem ressecar. Sua fórmula com óleo de amêndoa deixa os fios mais macios, nutridos e sedosos. Tododia é dia de cuidar dos seus cabelos com produtos gostosos e fragrâncias deliciosas que trazem bem-estar para sua rotina de um jeito simples e descomplicado. Essa linha conta com a exclusiva Tecnologia Prebiótica, que cuida da raiz às pontas.",
+    "image": "https://live.staticflickr.com/65535/54376985837_3b3c2dbd19_n.jpg"
+  },
+  {
+    "id": "refil-condicionador-antiqueda-crescimento",
+    "name": "Refil Condicionador Fortificante Antiqueda e Crescimento",
+    "tipo": "shampoos",
+    "description": "O shampoo de Tododia Flor de Cereja e Abacate limpa e recupera os cabelos danificados após química. sua fórmula com Tecnologia Prebiótica cuida dos fios da raiz às pontas.",
+    "image": "https://live.staticflickr.com/65535/54377858491_18c89298bc_n.jpg"
+  },
+  {
+    "id": "refil-shampoo-mamae-bebe",
+    "name": "Refil Shampoo Mamãe e Bebê",
+    "tipo": "shampoos",
+    "description": "Refil shampoo Mamãe e Bebê: carinho desde o primeiro dia de vida até na embalagem. Pensando em cada detalhe do produto, o refil shampoo Mamãe e Bebê é seguro para o seu filho e para o meio ambiente. O essencial para limpar os cabelos de forma suave e delicada.Todos os produtos para o bebê são hipoalergênicos. Estes produtos foram formulados de maneira minimizar possível surgimento de alergia.",
+    "image": "https://live.staticflickr.com/65535/54378255040_e8e3d16765_n.jpg"
+  },
+  {
+    "id": "refil-shampoo-reparador-tododia",
+    "name": "Refil Shampoo Reparador Tododia Flor de Cereja e Abacate",
+    "tipo": "shampoos",
+    "description": "O shampoo de Tododia Flor de Cereja e Abacate limpa e recupera os cabelos danificados após química. sua fórmula com Tecnologia Prebiótica cuida dos fios da raiz às pontas.",
+    "image": "https://live.staticflickr.com/65535/54378094948_2d2ee08696_n.jpg"
+  },
+  {
+    "id": "refil-condicionador-cabelos-oleosos",
+    "name": "Refil Condicionador Suave para Cabelos Oleosos Lumina",
+    "tipo": "shampoos",
+    "description": "O Condicionador Suave para Cabelos Oleosos de Lumina faz parte de um Sistema de Tratamento que controla a oleosidade por mais tempo sem ressecar os fios. Sua fórmula atua com eficácia no sintoma e na causa da oleosidade e trata tanto o fio quanto o couro cabeludo.",
+    "image": "https://live.staticflickr.com/65535/54378064909_dd64ee8553_n.jpg"
+  },
+  {
+    "id": "refil-shampoo-reestruturante-danos",
+    "name": "Refil Shampoo Reestruturante para Reconstrução de Danos",
+    "tipo": "shampoos",
+    "description": "A linha para Cabelos Quimicamente Danificados de Lumina mudou! Agora o seu Sistema de Reconstrução de Danos Extremos tem novas embalagens, nova fragrância e ainda mais tecnologia para cuidar do seu cabelo. Com BioProteína Tripla Ação e Ativo Reconstrutor, esse sistema promove reconstrução de até 89% dos danos extremos e prevenção de até 2,9 vezes dos danos futuros*. O Shampoo Reestruturante para Cabelos Quimicamente Danificados Lumina é um passo essencial nesse ritual, com fórmula que promove limpeza, reparação e rebalanceamento da fibra capilar.",
+    "image": "https://live.staticflickr.com/65535/54377858531_3531ff30c6_n.jpg"
+  },
+  {
+    "id": "shampoo-matizador-restauracao",
+    "name": "Shampoo Matizador para Matização e Restauração",
+    "tipo": "shampoos",
+    "description": "A linha para Cabelos Loiros e Grisalhos de Lumina mudou! Agora o seu Sistema de Matização e Restauração tem novas embalagens, nova fragrância e ainda mais tecnologia para cuidar do seu cabelo. Com BioProteína Tripla Ação e Ativo Matizador, esse sistema promove matização progressiva e 7 vezes mais resistência*. O Shampoo Matizador para Cabelos Loiros e Grisalhos Lumina é um passo essencial nesse ritual, com fórmula que promove limpeza com matização progressiva que neutraliza os tons amarelados indesejados.",
+    "image": "https://live.staticflickr.com/65535/54378255060_b8ae2f7dd2_n.jpg"
+  },
+  {
+    "id": "condicionador-nutritivo-tododia",
+    "name": "Condicionador Nutritivo Tododia Pêssego e Amêndoa 280 ml",
+    "tipo": "shampoos",
+    "description": "O Condicionador Nutritivo Tododia Pêssego e Amêndoa nutre intensamente e devolve o brilho natural dos cabelos. Sua fórmula com óleo de amêndoa deixa os fios sedosos e com menos frizz. Tododia é dia de cuidar dos seus cabelos com produtos gostosos e fragrâncias deliciosas que trazem bem estar para sua rotina de um jeito simples e descomplicado. Essa linha conta com a exclusiva Tecnologia Prebiótica, que cuida da raiz às pontas.",
+    "image": "https://live.staticflickr.com/65535/54378064924_fc08d3fbe8_n.jpg"
+  },
+  {
+    "id": "shampoo-hidratante-tododia",
+    "name": "Shampoo Hidratante Tododia Maçã Verde e Aloe Vera 300 ml",
+    "tipo": "shampoos",
+    "description": "Sua linha favorita de Lumina mudou. agora o Sistema de Tratamento Antiqueda e Crescimento tem novas embalagens e ainda mais tecnologia para cuidar do seu cabelo. com BioProteína Tripla Ação e Ativo Dermoativador, esse sistema combate a queda, acelera o crescimento em até 3 vezes e deixa o cabelo com até 9 vezes mais força. O Condicionador Fortificante Antiqueda e Crescimento Lumina é um passo essencial nesse ritual, com fórmula que deixa os fios hidratados e mais fáceis de pentear. *resultados obtidos com o uso da linha completa.",
+    "image": "https://live.staticflickr.com/65535/54376985982_fe6e48d5be_n.jpg"
+  },
+  {
+    "id": "refil-shampoo-hidratante",
+    "name": "Refil Shampoo Hidratante Maçã Verde e Aloe Vera",
+    "tipo": "shampoos",
+    "description": "Sua linha favorita de Lumina mudou. agora o Sistema de Tratamento Antiqueda e Crescimento tem novas embalagens e ainda mais tecnologia para cuidar do seu cabelo. com BioProteína Tripla Ação e Ativo Dermoativador, esse sistema combate a queda, acelera o crescimento em até 3 vezes e deixa o cabelo com até 9 vezes mais força. O Condicionador Fortificante Antiqueda e Crescimento Lumina é um passo essencial nesse ritual, com fórmula que deixa os fios hidratados e mais fáceis de pentear. *resultados obtidos com o uso da linha completa.",
+    "image": "https://live.staticflickr.com/65535/54378255115_96e6c6a1e7_n.jpg"
+  }
+]

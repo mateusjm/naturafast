@@ -1,0 +1,66 @@
+[
+  {
+    "id": "essencial-masculino",
+    "name": "Essencial Masculino 100 ml",
+    "tipo": "perfumes",
+    "description": "Essencial Deo Parfum Masculino: uma potência em fragrância. Essencial Deo Parfum Masculino Natura é a expressão máxima da elegância e força. com notas intensas e marcantes, traduz o poder e a sofisticação do homem moderno, oferecendo uma experiência olfativa única.",
+    "image": "https://live.staticflickr.com/65535/54378986990_c6f029208c_n.jpg"
+  },
+  {
+    "id": "ilia-secreto",
+    "name": "Ilía Secreto 50 ml",
+    "tipo": "perfumes",
+    "description": "Ilía Secreto é uma fragrância envolvente e misteriosa que combina notas florais com toques frutados e amadeirados. Uma fragrância que revela a dualidade entre força e delicadeza, perfeito para mulheres que abraçam seu lado mais enigmático.",
+    "image": "https://live.staticflickr.com/65535/54378797489_1ce1c0fdf4_n.jpg"
+  },
+  {
+    "id": "una-infinito",
+    "name": "Una Infinito 75 ml",
+    "tipo": "perfumes",
+    "description": "Una Infinito é a fragrância inspirada nas misteriosas combinações da Galáxia, essa fragrância carrega consigo uma explosão de brilho criada pela combinação da cremosa ameixa negra à notas amadeiradas e cítricas. intenso e adocicado para combinar com o look da sua maquiagem da Coleção Infinito.",
+
+    "image": "https://live.staticflickr.com/65535/54378589866_1435f64d29_n.jpg"
+  },
+  {
+    "id": "natura-homem-sagaz",
+    "name": "Natura Homem Sagaz 100 ml",
+    "tipo": "perfumes",
+    "description": "Descubra a Fragrância Amadeirada de Natura Homem Sagaz Natura Homem Sagaz é uma fragrância marcante e envolvente, projetada para homens que valorizam a inteligência e a sofisticação. combinando notas amadeiradas e especiadas, este perfume exala confiança e poder.",
+    "image": "https://live.staticflickr.com/65535/54378831488_43be975453_n.jpg"
+  },
+  {
+    "id": "ilia-completa",
+    "name": "Ilía Completa 50 ml",
+    "tipo": "perfumes",
+    "description": "Contemple sua elegância e feminilidade com Ilía Completa Deo Parfum Ilía Completa é uma homenagem às mulheres que desfrutam plenamente da vida em todos os momentos. fragrância intensa, simboliza a dualidade entre força e delicadeza. indicada para quem não tem medo de ir além e espalhar o frescor de ser completo com Ilía.",
+    "image": "https://live.staticflickr.com/65535/54378831473_05448e3bd3_n.jpg"
+  },
+  {
+    "id": "natura-homem-aromaticos",
+    "name": "Natura Homem Aromáticos",
+    "tipo": "perfumes",
+    "description": "Natura Homem Aromáticos é ideal para o homem urbano que vive uma rotina intensa. esse desodorante colônia combina refrescância com um fundo amadeirado. uma edição limitada com perfumação que se adapta perfeitamente desde o trabalho até um encontro casual.",
+    "image": "https://live.staticflickr.com/65535/54378797529_9b1be34e48_n.jpg"
+  },
+  {
+    "id": "natura-homem-coragio",
+    "tipo": "perfumes",
+    "name": "Natura Homem Cor.agio 100 ml",
+    "description": "Natura Homem Cor.agio é uma fragrância que celebra a coragem e a autenticidade. com notas amadeiradas e frescas, esta fragrância é ideal para o homem que enfrenta desafios com determinação e confiança, sem perder a leveza e a elegância.",
+    "image": "https://live.staticflickr.com/65535/54378831493_e23fdc40fa_n.jpg"
+  },
+  {
+    "id": "kaiak-masculino",
+    "name": "Kaiak Masculino 100 ml",
+    "tipo": "perfumes",
+    "description": "Experimente a refrescância única de Kaiak masculino. Este clássico da perfumaria brasileira traz uma combinação icônica e atemporal de notas aromáticas, cítricas e aquosas inspiradas na força das águas. Sinta a poência do frescor que renova e revigora as energias.",
+    "image": "https://live.staticflickr.com/65535/54378987065_99950969d2_n.jpg"
+  },
+  {
+    "id": "natura-homem-essence",
+    "name": "Natura Homem Essence 100 ml",
+    "tipo": "perfumes",
+    "description": "Conheça Natura Homem Essence Natura Homem Essence celebra a sofisticação e a elegância masculina. com notas amadeiradas e especiadas, esta fragrância exala personalidade e é ideal para o homem que busca uma presença marcante.",
+    "image": "https://live.staticflickr.com/65535/54378987055_6b9f0e5975_n.jpg"
+  }
+]
