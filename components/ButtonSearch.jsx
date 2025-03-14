@@ -37,6 +37,7 @@ function ButtonSearch({ searchPath, placeholder = "Pesquisar..." }) {
               onChange={(e) => setSearchTerm(e.target.value)}
               aria-label="Pesquisar"
               style={{
+                width: '100%',
                 outline: "none",
                 boxShadow: "none",
                 borderColor: "#F6A925",
@@ -49,9 +50,8 @@ function ButtonSearch({ searchPath, placeholder = "Pesquisar..." }) {
             >
               Buscar
             </Button>
-
-            <Button href="/busca" style={{ width: 200, backgroundColor: '#F6A925', border: 'transparent' }} type="submit">
-              Mostrar todos
+            <Button href="/busca" style={{ width: '15%', backgroundColor: '#F6A925', border: 'transparent' }} type="submit">
+              Todos
             </Button>
           </Form>
         </Col>

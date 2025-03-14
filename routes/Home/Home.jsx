@@ -80,14 +80,12 @@ const Home = ({
             <h5 style={{ color: "#F6A925" }} className="text-center mt-3 mb-3">
               Quem somos
             </h5>
-            <h4 sm={12} xs={12} className="text-center fst-italic mb-5">
+            <h4 sm={12} xs={12} className="text-center fst-italic">
               Somos especialistas em produtos de beleza, cosméticos e cuidados
               pessoais.
             </h4>
-            <p className="text-center mb-5">
-              Na Natura Fast, acreditamos que beleza vai além da aparência: é
-              sobre autocuidado, bem-estar e confiança. Somos uma loja
-              especializada em cosméticos, maquiagens, perfumes femininos e
+            <p className="text-center p-4 mb-5">
+              A Natura Fast é especializada em cosméticos, maquiagens, perfumes femininos e
               produtos de cuidados com a pele e cabelo da Natura, oferecendo às
               mulheres de Ponte Nova e região uma experiência única, com
               atendimento próximo e personalizado.
