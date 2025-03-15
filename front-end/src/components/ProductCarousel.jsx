@@ -95,7 +95,11 @@ const ProductCarousel = () => {
             <div className="text-center mt-5 mb-5">
               <Link to="/produtos">
                 <Button
-                  style={{ backgroundColor: "#F6A925", border: "transparent" }}
+                  className={styles.button_link}
+                  style={{
+                    backgroundColor: "#F6A925",
+                    border: "transparent",
+                  }}
                 >
                   Conheça nossos produtos
                 </Button>

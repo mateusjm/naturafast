@@ -177,13 +177,13 @@ const Home = ({
               </ul>
               <div className="text-center mt-5">
                 <Link to="/produtos">
-                  <Button
-                    className={styles.button_link}
-                    style={{
-                      backgroundColor: "#F6A925",
-                      border: "transparent",
-                    }}
-                  >
+                    <Button
+                      className={styles.button_link}
+                      style={{
+                        backgroundColor: "#F6A925",
+                        border: "transparent",
+                      }}
+                    >
                     Conheça nossos produtos
                   </Button>
                 </Link>
