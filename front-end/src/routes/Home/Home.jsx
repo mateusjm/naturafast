@@ -80,6 +80,7 @@ const Home = ({
             <h5 style={{ color: "#F6A925" }} className="text-center mt-3 mb-3">
               Quem somos
             </h5>
+            <h1><span style={{ color: "#F6A925" }}>Natura Fast</span> Ponte Nova</h1>
             <h4 sm={12} xs={12} className="text-center fst-italic">
               Somos especialistas em produtos de beleza, cosméticos e cuidados
               pessoais.
@@ -104,7 +105,7 @@ const Home = ({
                 style={{ objectFit: "cover" }}
               />
             </Col>
-            <Col className="mb-5">
+            <Col className="mb-4">
               <ul className={`${styles.home}`}>
                 <Stack gap={4}>
                   <li className={styles.list_item}>
