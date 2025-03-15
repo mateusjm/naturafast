@@ -74,14 +74,17 @@ const ProductCarousel = () => {
                     />
                   </Link>
                   <Card.Body>
-                    <Card.Title className="mb-4">{product.name}</Card.Title>
+                    <Card.Title className="mb-5">{product.name}</Card.Title>
                   </Card.Body>
                   <Link
                     to={`/produtos/${product.tipo}/${product.id}`}
                     className="btn-overlay"
                   >
                     <Button
+                      className={styles.button_link}
                       style={{
+                        width: '120px',
+                        padding: '10px',
                         backgroundColor: "#F6A925",
                         border: "transparent",
                       }}
