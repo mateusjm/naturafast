@@ -74,7 +74,7 @@ const ProductCarousel = () => {
                     />
                   </Link>
                   <Card.Body>
-                    <Card.Title>{product.name}</Card.Title>
+                    <Card.Title className="mb-4">{product.name}</Card.Title>
                   </Card.Body>
                   <Link
                     to={`/produtos/${product.tipo}/${product.id}`}

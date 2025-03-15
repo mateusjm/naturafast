@@ -108,7 +108,7 @@ const Home = ({
               <ul className={`${styles.home}`}>
                 <Stack gap={4}>
                   <li className={styles.list_item}>
-                    <a href="/produtos/sabonetes">
+                    <a href="produtos/sabonetes">
                       <div className={styles.circulo}>
                         <img
                           src={`https://cdn-icons-png.flaticon.com/128/1398/1398857.png`}
@@ -125,7 +125,7 @@ const Home = ({
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a href="/produtos/shampoos">
+                    <a href="produtos/shampoos">
                       <div className={styles.circulo}>
                         <img
                           src={`https://cdn-icons-png.flaticon.com/128/6722/6722750.png`}
@@ -144,7 +144,7 @@ const Home = ({
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a href="/produtos/desodorantes">
+                    <a href="produtos/desodorantes">
                       <div className={styles.circulo}>
                         <img
                           src={`https://cdn-icons-png.flaticon.com/128/1686/1686055.png`}
@@ -159,7 +159,7 @@ const Home = ({
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a href="/produtos/perfumes">
+                    <a href="produtos/perfumes">
                       <div className={styles.circulo}>
                         <img
                           src={`https://cdn-icons-png.flaticon.com/128/2047/2047370.png`}
